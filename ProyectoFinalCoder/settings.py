@@ -41,7 +41,13 @@ INSTALLED_APPS = [
     'MyCoderSpace',
     'blogger',
     'ckeditor',
+<<<<<<< HEAD
     "ckeditor_uploader",
+=======
+    'ckeditor_uploader',
+    'bloggerlogin',
+    'bloggerprofile',
+>>>>>>> 0a009633fadd6ed47669973d23c4c5e639b2d31e
 ]
 
 MIDDLEWARE = [
@@ -136,6 +142,7 @@ CKEDITOR_UPLOAD_PATH = 'uploads/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
 
 CKEDITOR_CONFIGS = {
+<<<<<<< HEAD
 'portal_config': {
     # 'skin': 'moono',
     # 'skin': 'office2013',
@@ -213,4 +220,9 @@ CKEDITOR_CONFIGS = {
         'elementspath'
     ]),
     }
+=======
+    'default': {
+        'toolbar': None,
+    },
+>>>>>>> 0a009633fadd6ed47669973d23c4c5e639b2d31e
 }
